@@ -11,10 +11,10 @@ app.use(express.compress());
 
 app.use(express.static(__dirname + '/public', { maxAge: halfHour }));
 
-app.get('/fr', function(req,res) {
+app.all('/fr', function(req,res) {
     res.sendfile('index.html');
 });
-app.get('/', function(req, res){
+app.all('/', function(req, res){
 	res.setHeader('Cache-Control','public, max-age=' + (halfHour / 1000));	
     res.sendfile('index.html');
 });
