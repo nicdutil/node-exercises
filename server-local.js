@@ -67,9 +67,6 @@ function get_geoloc(ip, complete) {
         });
 }
 
-app.get('/fr', function(req,res) {
-    res.sendfile('index.html');
-});
 
 app.get('/', function(req, res) {
     var ip = req.headers['X-Forwarded-For'];
