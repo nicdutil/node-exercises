@@ -37,10 +37,6 @@ var oneDay = 86400000;
 
 app.use(express.compress());
 
-app.get('/welcome_en.html', function(req,res) {
-    console.log('hi');
-    res.redirect(301, '/welcome.html');
-});
 
 app.use(express.static(__dirname + '/public'));
 
@@ -71,6 +67,9 @@ function get_geoloc(ip, complete) {
         });
 }
 
+app.get('/fr', function(req,res) {
+    res.sendfile('index.html');
+});
 
 app.get('/', function(req, res) {
     var ip = req.headers['X-Forwarded-For'];
