@@ -1,3 +1,6 @@
+var http = require('http');
+var https = require('https');
+
 var express = require('express'),
     app = express();
 
@@ -11,12 +14,29 @@ app.use(express.compress());
 
 app.use(express.static(__dirname + '/public', { maxAge: halfHour }));
 
-app.all('/fr', function(req,res) {
-    res.sendfile('index.html');
-});
-app.all('/', function(req, res){
-	res.setHeader('Cache-Control','public, max-age=' + (halfHour / 1000));	
-    res.sendfile('index.html');
+
+app.all('/', function(req, res) {
+//    var ip = req.headers['X-Forwarded-For'];
+    var html;
+    var options = {
+        host: 'www.barnabemazda.com',
+        path: '/used-inventory/index.htm?reset=InventoryListing',
+    };
+
+    var x = "";
+    var req = http.get(options, function(response) {
+        response.setEncoding('binary');
+
+        response.on('data', function(d) {
+             x += d.toString();
+          });
+        response.on('end', function() {
+          res.send(x);            
+        });
+    }); 
+    req.on('error', function(e) {
+        console.log('ERROR:' + e.message);
+    });
 });
 
 

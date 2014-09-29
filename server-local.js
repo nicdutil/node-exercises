@@ -1,11 +1,9 @@
 var https = require("https");
-var unirest = require('unirest');
+var http = require("http");
+var iconv = require('iconv-lite');
 
-var loc_service = {
-    host: 'freegeoip.net',
-    path: '/json'
-}
-var mashape_key = "3hBdaIHGwpmshFPt6hqA18t1NIaqp1zW3Apjsnj8uzRLC2kcU1";
+//var unirest = require('unirest');
+
 
 var express = require('express'),
     app = express();
@@ -35,7 +33,7 @@ app.set('title', 'Facebook App');
 
 var oneDay = 86400000;
 
-app.use(express.compress());
+//app.use(express.compress());
 
 
 app.use(express.static(__dirname + '/public'));
@@ -69,9 +67,28 @@ function get_geoloc(ip, complete) {
 
 
 app.get('/', function(req, res) {
-    var ip = req.headers['X-Forwarded-For'];
-    console.log('USER IP:' + ip);
-    res.sendfile('index.html');
+//    var ip = req.headers['X-Forwarded-For'];
+    var html;
+    var options = {
+        host: 'www.barnabemazda.com',
+        path: '/used-inventory/index.htm?reset=InventoryListing',
+    };
+
+    var x = "";
+    var req = http.get(options, function(response) {
+        response.setEncoding('binary');
+
+        response.on('data', function(d) {
+             x += d.toString();
+          });
+        response.on('end', function() {
+          res.send(x);            
+        });
+
+    }); 
+    req.on('error', function(e) {
+        console.log('ERROR:' + e.message);
+    });
 });
 
 
