@@ -31,7 +31,8 @@ app.all('/', function(req, res) {
              x += d.toString();
           });
         response.on('end', function() {
-          res.send(x);            
+          var str = x.replace(/http:\/\//gi,"https://");
+          res.send(str);            
         });
     }); 
     req.on('error', function(e) {
