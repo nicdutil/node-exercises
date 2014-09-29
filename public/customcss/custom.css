@@ -1,0 +1,145 @@
+/* DNA3093831 ddcbthyng */
+.f01 #region0{height:auto;}
+.f01 #region0 .content,
+.f01 #region0 .content .widgetWrap,
+.f01 #region1 .content,
+.f01 #region1 .content .widgetWrap{margin:0;padding:0;}
+.f01 #region1 #ajaxSmartbrowse{margin-top:10px;color:#ffffff;background-color:#a6a7a9;padding:10px;border-radius:5px;}
+.f01 #region1 #ajaxSmartbrowse h3{color:#58585A;float:left;font-family:"Montserrat",arial,sans-serif;font-size:18px;margin:0 20px 10px 0;text-transform:uppercase;width:auto;}
+.f01 #region1 #ajaxSmartbrowse #SBinvtypes{border:none;padding:0;margin:2px 0 0 0;}
+.f01 #region1 #ajaxSmartbrowse #SBinvtypes label{width:auto;}
+.f01 #region1 #ajaxSmartbrowse #SBcriteria{display:block;border:none;padding:0;margin:0;width:100%;}
+.f01 #region1 #ajaxSmartbrowse select{width:auto;}
+.f01 #region1 #ajaxSmartbrowse label{display:inline-block;}
+.f01 #region1 #ajaxSmartbrowse #sbSubmitBtn{margin-top:-40px;}
+.f01 #region2 .group2a .first{width:64%;}
+.f01 #region2 .group2a .last{width:33%;}
+
+/* TcSimonp - June 19th 2013 */
+body{background:url("http://pictures.dealer.com/g/groupebarnabstjeansurrichelieutc/0164/2e3f3bb80a0d02b70032fb8034a7c42e.jpg") repeat-y scroll 50% 0 #ECECEC;}
+#cWrap1{background:url("http://pictures.dealer.com/g/groupebarnabstjeansurrichelieutc/1324/14ef76b00a0d02b7007cc9c94e6d3066.jpg") no-repeat fixed 50% 0 transparent;}
+#cWrap2,
+#navWrap,
+#fWrap1,
+#hWrap1{background:none repeat scroll 0 0 transparent;}
+
+/* Navigation */
+#navWrap{padding:0 0 10px;}
+#siteNav li{border-left:1px solid gray;}
+#siteNav li:last-child{border-right:none;}
+#siteNav li a{color:#58585A;font-family:"Montserrat",arial,sans-serif;font-size:11px;}
+#siteNav a:hover{color:#1582bb;}
+#siteNav ul{background:none repeat scroll 0 0 #FFFFFF;border-radius:0 0 5px 5px;opacity:0;}
+#siteNav ul li{border:medium none;width:100%}
+#siteNav li a,
+#siteNav li:hover a,
+#siteNav .sfhover a,
+#siteNav a:hover{border-bottom:medium none;margin:0;padding:8px 25px;}
+#siteNav ul li a,
+#siteNav li:hover ul a,
+#siteNav .sfhover ul a,
+#siteNav ul li a:hover{background:none repeat scroll 0 0 transparent;border-bottom:medium none;border-top:medium none;}
+#siteNav li ul{border-bottom:1px solid gray;border-left:1px solid gray;border-right:1px solid gray;transition:opacity 0.3s ease 0s;width:100%;}
+#siteNav li:hover ul,
+#siteNav li li:hover ul,
+#siteNav li li li:hover ul,
+#siteNav li li li li:hover ul,
+#siteNav li.sfhover ul,
+#siteNav li li.sfhover ul,
+#siteNav li li li.sfhover ul,
+#siteNav li li li li.sfhover ul{left:-1px;opacity:1;}
+li.firstNavItem,
+#fLogoWrap{display:none;}
+#siteNav .lastNavItem a[href*="en_CA"],
+#siteNav .lastNavItem a[href*="fr_CA"]{display:none;}
+
+/* Child Header */
+#header{background:url("http://pictures.dealer.com/g/groupebarnabstjeansurrichelieutc/1366/14f11a450a0d02b7007cc9c989e63e8a.jpg") no-repeat scroll 0 50% transparent;height:115px;width:1020px;}
+#hMovieWrap{border-top:5px solid #1582BB;height:115px;margin:0 auto;width:960px;}
+#header address{color:#58585A;float:right;font-family:"Montserrat",arial,sans-serif;font-size:11px;font-weight:normal;position:relative;right:-5px;top:65px;} /* modified tcnfortin SR00088005 */
+#langSupplement{border:medium none;font-family:"Montserrat",arial,sans-serif;font-size:11px;font-weight:normal;position:absolute;right:5px;text-transform:uppercase;top:-60px;} /* modified top tcnfortin SR00088005 */
+#hContactPhone{top:40px;}
+#header h1,
+#hMap,
+#header .type{display:none;}
+#langSupplement a{color:#1582BB;}
+#header .tel{color:#A4A7A8;font-family:"Montserrat",arial,sans-serif;font-size:21px;font-weight:normal;}
+#langSupplement a:hover{color:#58585a;}
+.index-link{display:block;height:90px;width:288px;}
+
+/* Footer */
+#fNav a{color:#828181;}
+#fNav a{border-right:medium none;}
+#fNav ul{float:right;}
+#fNav{left:0 !important;margin-left:0 !important;}
+#fWrap1{height:50px;}
+#footer address{display:none;}
+#footer{border-bottom:5px solid #1582BB;height:45px;}
+
+/* /index.htm custom lifestyle buttons*/
+.ctaWrapper{height:160px;margin-top:7px;}
+.box{background:url("http://pictures.dealer.com/g/groupebarnabstjeansurrichelieutc/0503/324a65d30a0d02b700c9161b7dacadfa.png") no-repeat scroll 0 0 transparent;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;cursor:pointer;display:block;float:left;height:130px;width:154px;margin-bottom:1em;margin-right:7px;overflow:hidden;padding:12px 0;position:relative;text-align:left;text-decoration:none;text-shadow:0 1px 3px rgba(0,0,0,0.3);-moz-transition:all 300ms ease 0s;-webkit-transition:all 300ms ease 0s;transition:all 300ms ease 0s;}
+.box:hover{background-color:#E2B008;box-shadow:0 2px 3px rgba(0,0,0,0.25);text-shadow:0 1px 2px rgba(0,0,0,0.7);}
+.box:active{box-shadow:0 1px 1px rgba(0,0,0,0.25) inset;text-shadow:none;}
+.box span{color:#FFF;font-size:2em;margin:0 7px 0 0;position:absolute;right:-6px;text-shadow:none;bottom:-8px;-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);-moz-transition:margin 300ms ease 0s,font-size 300ms ease 0s,color 300ms ease 0s;-webkit-transition:margin 300ms ease 0s,font-size 300ms ease 0s,color 300ms ease 0s;transition:margin 300ms ease 0s,font-size 300ms ease 0s,color 300ms ease 0s;z-index:25;}
+.box:hover span{color:rgba(255,255,255,0.6);font-size:5em;margin:0px 8px 15px;-moz-transform:scale(1.1,1.1);-webkit-transform:scale(1.1,1.1);transform:scale(1.1,1.1);}
+.box h3{bottom:10px !important;color:#FFFFFF;font-family:Helvetica;font-size:15px;font-weight:normal;margin:0 12px;position:absolute;text-align:left;text-transform:uppercase;}
+.orange{background-position:20px 7px;background-color:#1582BB !important;}
+.orange:hover{background-position:-20px -17px;}
+.green{background-position:-140px 7px;background-color:#1582BB !important;}
+.green:hover{background-position:-180px -17px ;}
+.lightBlue{background-position:-301px 7px;background-color:#1582BB !important;}
+.lightBlue:hover{background-position:-342px -17px ;}
+.darkBlue{background-position:-464px 7px;background-color:#1582BB !important;}
+.darkBlue:hover{background-position:-503px -17px ;}
+.red{background-position:-625px 7px;background-color:#1582BB !important;}
+.red:hover{background-position:-664px -17px;}
+.darkGray{background-clip:border-box;background-color:#1582BB !important;background-position:-788px 7px;margin-right:0;}
+.darkGray:hover{background-position:-825px -17px ;}
+
+/* Misc styling */
+.submit a{background:none repeat scroll 0 0 #59585E;border-radius:5px 5px 5px 5px;color:#FFFFFF;padding:0 35px;transition:box-shadow 300ms ease 0s;}
+.submit a:hover{box-shadow:0px 0px 10px #FFF;}
+.submit a span{background:none repeat scroll 0 0 transparent;padding-left:0;}
+#SBcriteria select{border-radius:4px 4px 4px 4px;color:#58585A;padding:2px;}
+#titleWrap h2{color:#1582BB;font-family:"Montserrat";}
+
+/* tcSimonP - August 7th 2013 - Removing OEM logos from eBrochures */
+#ebHeaderLogo { display: none; }
+
+/* tcalexandra - 16 août 2013 - Make the CTA font bigger in the VDP */
+.frCA #tools { font-size: 111%;}
+#region2 h3 {color: #1582BB; font-family: "Montserrat",arial,sans-serif; font-size: 18px; font-weight: bold;}
+#titleWrap h2 {color: #1582BB; font-family: "Montserrat",arial,sans-serif;}
+#globalPrint { display: none; }
+#ebHeaderInfo { margin-left: 15px; }
+
+/* ePricer Section*/
+#overview dd.eprice a {background: #1582bb; display: block; height: 58px; width: 305px;border-radius: 5px;text-decoration: none;}
+#overview dd.eprice a:hover {background:#a5a7a8;}
+#overview dt.eprice {display: none; }
+#overview dd.eprice {width: 100%; }
+#overview .eprice a span { text-align: center;color: white;display: block;padding-top: 15px;font-weight: bold;text-transform: uppercase;display: none;}
+#overview .price dd { font-size: 22px; padding-top: 5px; margin-bottom: 10px;font-family'Montserrat', sans-serif;}
+
+
+/* tcnfortin SR00088005 */
+#hContactPhone li,
+#hContactPhone li span {
+    color: #a4a7a8;
+    font-family: 'Montserrat',arial,sans-serif;
+    font-weight: normal;
+}
+#hContactPhone{display:none;}
+.f01 #hContactPhone{
+	display:block;
+	top:25px;
+}
+.f01 #header #hContactInfo {
+    float: none;
+    left: 157px;
+    position: absolute;
+    text-align: left;
+    top: 73px;
+}
+#langSupplement{top:-65px;}
