@@ -4,12 +4,11 @@
 # TEAM
     
     <name> -- <role> -- <twitter>
-    Nicolas Dutil -- Main Dev -- 
+    Nicolas Dutil --  Writer --  @NicolasDutil1
 
 # THANKS
 
     
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+	Node.JS
