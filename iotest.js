@@ -1,3 +1,7 @@
+/*
+ * Exercise: create a small test runner to measure fs performance.
+ */
+
 var fs = require('fs'),
 	assert = require('assert'); // for sanity checks
 
