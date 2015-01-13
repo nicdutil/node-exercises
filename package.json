@@ -1,23 +1,24 @@
 {
   "name": "826094",
   "version": "0.0.0",
-  "description": "Facebook Redirect App",
-  "main": "server.js",
+  "description": "Node.js Exercises",
+  "main": "fetchPage.js",
   "dependencies": {
-    "express": "~3.5.1"
+    "express": "~3.5.1",
+    "socket.io": "^1.2.1"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node fetchPage.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/infocinc/fapp.git"
+    "url": "git://github.com/infocinc/node-exercises.git"
   },
   "author": "Nicolas Dutil",
   "license": "",
   "bugs": {
-    "url": "https://github.com/infocinc/fapp/issues"
+    "url": "https://github.com/infocinc/node-exercises/issues"
   }
 }

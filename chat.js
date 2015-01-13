@@ -1,4 +1,8 @@
 
+/*
+ * Exercise: create a small chat room
+ */
+
 var app = require('express')(),
 	http = require('http').Server(app),
 	io = require('socket.io')(http);
